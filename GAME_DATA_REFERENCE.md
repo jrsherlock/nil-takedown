@@ -44,7 +44,7 @@ This document provides a complete reference of all game data, mechanics, and bal
 
 ---
 
-## Game Events (6 Total)
+## Game Events (11 Total)
 
 ### Event 1: The Secret Meeting
 **Description:** "A rival coach texts you: 'Meet me behind the bleachers. I've got a duffel bag with your name on it. Literally. We had it embroidered.'"
@@ -180,6 +180,128 @@ This document provides a complete reference of all game data, mechanics, and bal
    - Loyalty: -20%
    - Clout: +15,000
    - Consequence: "Somehow people actually buy your coin. Capitalism is wild."
+
+---
+
+### Event 7: The Viral TikTok Opportunity
+**Description:** "A TikTok influencer wants you to do the 'Wrestling Thirst Trap Challenge' - basically just flexing in a singlet to trending audio. It's cringe, but it could blow up your social media."
+
+**Choices:**
+1. **Go full influencer mode**
+   - Money: +$45,000
+   - Clout: +25,000
+   - Loyalty: -25%
+   - Consequence: "You gain 500K followers overnight! Your coach is horrified but you're internet famous."
+
+2. **Politely decline and focus on wrestling**
+   - Skill: +20%
+   - Loyalty: +15%
+   - Clout: -3,000
+   - Consequence: "You stay true to the sport. Your followers call you 'boring' but respect increases."
+
+3. **Do it ironically with terrible acting**
+   - Money: +$30,000
+   - Clout: +18,000
+   - Skill: +5%
+   - Consequence: "The irony is lost on everyone. You're a meme now, but hey, engagement is engagement!"
+
+---
+
+### Event 8: FloWrestling Wants You Live
+**Description:** "FloWrestling invites you to their livestream to discuss 'the future of NIL in wrestling.' The host keeps asking about your bank account instead of your wrestling."
+
+**Choices:**
+1. **Flex your NIL earnings on air**
+   - Money: +$60,000
+   - Clout: +20,000
+   - Loyalty: -40%
+   - Consequence: "You brag about your deals for 45 minutes. Boosters are calling. Your coach isn't."
+
+2. **Dodge questions and talk technique**
+   - Skill: +15%
+   - Loyalty: +20%
+   - Clout: +8,000
+   - Consequence: "You give a masterclass on ankle picks. Wrestling purists love you. Sponsors are confused."
+
+3. **Turn it into a live NIL auction**
+   - Money: +$120,000
+   - Loyalty: -70%
+   - Clout: +28,000
+   - Consequence: "You literally auction yourself on live TV. FloWrestling's servers crash from traffic. Chaos!"
+
+---
+
+### Event 9: Challenge Spencer Lee?!
+**Description:** "After a few energy drinks, you tweet 'I could take Spencer Lee.' It goes viral. Now people actually want to see it happen. Spencer responds with a laughing emoji."
+
+**Choices:**
+1. **Double down on the challenge**
+   - Money: +$85,000
+   - Clout: +22,000
+   - Skill: -15%
+   - Loyalty: -35%
+   - Consequence: "A booster funds the exhibition match. You get destroyed but the PPV money is nice."
+
+2. **Claim you were hacked**
+   - Clout: -5,000
+   - Loyalty: +5%
+   - Consequence: "Nobody believes you. Spencer tweets 'Sure you were 😂'. At least you avoided humiliation."
+
+3. **Turn it into a charity event**
+   - Money: +$50,000
+   - Clout: +15,000
+   - Skill: +10%
+   - Loyalty: +10%
+   - Consequence: "You still lose, but it's for charity! Spencer respects the hustle and gives you tips after."
+
+---
+
+### Event 10: AJ Ferrari Collaboration
+**Description:** "AJ Ferrari DMs you: 'Yo we should collab bro. I got this energy drink deal and they want CONTROVERSY.' Your agent is screaming 'NO' but the money is screaming 'YES.'"
+
+**Choices:**
+1. **Full send the collaboration**
+   - Money: +$95,000
+   - Clout: +30,000
+   - Loyalty: -60%
+   - Skill: -10%
+   - Consequence: "The video is absolutely unhinged. You trend for 3 days. Your coach won't make eye contact."
+
+2. **Politely ghost him**
+   - Loyalty: +15%
+   - Skill: +10%
+   - Clout: +2,000
+   - Consequence: "You dodge the drama bullet. AJ posts 'Guess some people scared of the spotlight 🤷'"
+
+3. **Negotiate a "clean" version**
+   - Money: +$55,000
+   - Clout: +12,000
+   - Loyalty: -15%
+   - Consequence: "You do a watered-down collab. It's boring but safe. AJ calls you 'mid' on his story."
+
+---
+
+### Event 11: NCAA Compliance "Chat"
+**Description:** "The NCAA compliance office wants to 'discuss' your recent Lamborghini Instagram post, your 5-star hotel stays, and why you're wearing a different Rolex every week. They're using air quotes a lot."
+
+**Choices:**
+1. **Hire a lawyer immediately**
+   - Money: -$50,000
+   - Loyalty: -20%
+   - Clout: +10,000
+   - Consequence: "Your lawyer destroys them with NIL paperwork. Expensive, but you're untouchable now."
+
+2. **Play dumb and cooperative**
+   - Money: -$15,000
+   - Loyalty: +10%
+   - Skill: +5%
+   - Consequence: "You return some 'gifts' and promise to be more careful. They're watching you now."
+
+3. **Livestream the whole meeting**
+   - Money: +$40,000
+   - Clout: +25,000
+   - Loyalty: -45%
+   - Consequence: "You expose the absurdity of NCAA rules. You're a folk hero, but also on a watchlist."
 
 ---
 

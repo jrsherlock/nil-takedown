@@ -236,6 +236,116 @@ const gameEvents: GameEvent[] = [
         consequence: 'Somehow people actually buy your coin. Capitalism is wild.'
       }
     ]
+  },
+  {
+    id: 'viral-tiktok-challenge',
+    title: 'The Viral TikTok Opportunity',
+    description: 'A TikTok influencer wants you to do the "Wrestling Thirst Trap Challenge" - basically just flexing in a singlet to trending audio. It\'s cringe, but it could blow up your social media.',
+    choices: [
+      {
+        text: 'Go full influencer mode',
+        effects: { money: 45000, clout: 25000, loyalty: -25 },
+        consequence: 'You gain 500K followers overnight! Your coach is horrified but you\'re internet famous.'
+      },
+      {
+        text: 'Politely decline and focus on wrestling',
+        effects: { skill: 20, loyalty: 15, clout: -3000 },
+        consequence: 'You stay true to the sport. Your followers call you "boring" but respect increases.'
+      },
+      {
+        text: 'Do it ironically with terrible acting',
+        effects: { money: 30000, clout: 18000, skill: 5 },
+        consequence: 'The irony is lost on everyone. You\'re a meme now, but hey, engagement is engagement!'
+      }
+    ]
+  },
+  {
+    id: 'flowrestling-livestream',
+    title: 'FloWrestling Wants You Live',
+    description: 'FloWrestling invites you to their livestream to discuss "the future of NIL in wrestling." The host keeps asking about your bank account instead of your wrestling.',
+    choices: [
+      {
+        text: 'Flex your NIL earnings on air',
+        effects: { money: 60000, clout: 20000, loyalty: -40 },
+        consequence: 'You brag about your deals for 45 minutes. Boosters are calling. Your coach isn\'t.'
+      },
+      {
+        text: 'Dodge questions and talk technique',
+        effects: { skill: 15, loyalty: 20, clout: 8000 },
+        consequence: 'You give a masterclass on ankle picks. Wrestling purists love you. Sponsors are confused.'
+      },
+      {
+        text: 'Turn it into a live NIL auction',
+        effects: { money: 120000, loyalty: -70, clout: 28000 },
+        consequence: 'You literally auction yourself on live TV. FloWrestling\'s servers crash from traffic. Chaos!'
+      }
+    ]
+  },
+  {
+    id: 'spencer-lee-callout',
+    title: 'Challenge Spencer Lee?!',
+    description: 'After a few energy drinks, you tweet "I could take Spencer Lee." It goes viral. Now people actually want to see it happen. Spencer responds with a laughing emoji.',
+    choices: [
+      {
+        text: 'Double down on the challenge',
+        effects: { money: 85000, clout: 22000, skill: -15, loyalty: -35 },
+        consequence: 'A booster funds the exhibition match. You get destroyed but the PPV money is nice.'
+      },
+      {
+        text: 'Claim you were hacked',
+        effects: { clout: -5000, loyalty: 5 },
+        consequence: 'Nobody believes you. Spencer tweets "Sure you were 😂". At least you avoided humiliation.'
+      },
+      {
+        text: 'Turn it into a charity event',
+        effects: { money: 50000, clout: 15000, skill: 10, loyalty: 10 },
+        consequence: 'You still lose, but it\'s for charity! Spencer respects the hustle and gives you tips after.'
+      }
+    ]
+  },
+  {
+    id: 'aj-ferrari-collab',
+    title: 'AJ Ferrari Collaboration',
+    description: 'AJ Ferrari DMs you: "Yo we should collab bro. I got this energy drink deal and they want CONTROVERSY." Your agent is screaming "NO" but the money is screaming "YES."',
+    choices: [
+      {
+        text: 'Full send the collaboration',
+        effects: { money: 95000, clout: 30000, loyalty: -60, skill: -10 },
+        consequence: 'The video is absolutely unhinged. You trend for 3 days. Your coach won\'t make eye contact.'
+      },
+      {
+        text: 'Politely ghost him',
+        effects: { loyalty: 15, skill: 10, clout: 2000 },
+        consequence: 'You dodge the drama bullet. AJ posts "Guess some people scared of the spotlight 🤷"'
+      },
+      {
+        text: 'Negotiate a "clean" version',
+        effects: { money: 55000, clout: 12000, loyalty: -15 },
+        consequence: 'You do a watered-down collab. It\'s boring but safe. AJ calls you "mid" on his story.'
+      }
+    ]
+  },
+  {
+    id: 'ncaa-investigation',
+    title: 'NCAA Compliance "Chat"',
+    description: 'The NCAA compliance office wants to "discuss" your recent Lamborghini Instagram post, your 5-star hotel stays, and why you\'re wearing a different Rolex every week. They\'re using air quotes a lot.',
+    choices: [
+      {
+        text: 'Hire a lawyer immediately',
+        effects: { money: -50000, loyalty: -20, clout: 10000 },
+        consequence: 'Your lawyer destroys them with NIL paperwork. Expensive, but you\'re untouchable now.'
+      },
+      {
+        text: 'Play dumb and cooperative',
+        effects: { money: -15000, loyalty: 10, skill: 5 },
+        consequence: 'You return some "gifts" and promise to be more careful. They\'re watching you now.'
+      },
+      {
+        text: 'Livestream the whole meeting',
+        effects: { money: 40000, clout: 25000, loyalty: -45 },
+        consequence: 'You expose the absurdity of NCAA rules. You\'re a folk hero, but also on a watchlist.'
+      }
+    ]
   }
 ]
 

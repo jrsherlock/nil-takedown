@@ -85,7 +85,7 @@ Fixed the "Find Next Opportunity 💰" button functionality to properly generate
 - [ ] Continue until all 6 events are played
 
 ✅ **All Events Exhausted:**
-- [ ] Play through all 6 available events
+- [ ] Play through all 11 available events
 - [ ] Click "Find Next Opportunity 💰" button
 - [ ] Verify toast appears: "You've experienced all available events!"
 - [ ] Verify no event card appears
@@ -104,13 +104,18 @@ Fixed the "Find Next Opportunity 💰" button functionality to properly generate
 - [ ] Button works in different years
 - [ ] Initial event loads automatically after 1 second
 
-## Available Events (6 total)
+## Available Events (11 total)
 1. The Secret Meeting
 2. Social Media Oops
 3. Practice vs. Payday
 4. Booster Bidding War
 5. The Transfer Portal Beckons
 6. Crypto Deal Gone Wrong
+7. The Viral TikTok Opportunity
+8. FloWrestling Wants You Live
+9. Challenge Spencer Lee?!
+10. AJ Ferrari Collaboration
+11. NCAA Compliance "Chat"
 
 ## Technical Details
 
