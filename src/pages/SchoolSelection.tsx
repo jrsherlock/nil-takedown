@@ -1,10 +1,17 @@
 import React from 'react'
 import { motion } from 'framer-motion'
+import { useNavigate } from 'react-router-dom'
 import { useGameStore } from '../store/gameStore'
 import SchoolCard from '../components/SchoolCard'
 
 const SchoolSelection = () => {
+  const navigate = useNavigate()
   const { schools, selectSchool, player } = useGameStore()
+
+  const handleSelectSchool = (schoolId: string) => {
+    selectSchool(schoolId)
+    navigate('/game')
+  }
 
   return (
     <motion.div 
@@ -37,9 +44,9 @@ const SchoolSelection = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: index * 0.2 }}
           >
-            <SchoolCard 
-              school={school} 
-              onSelect={() => selectSchool(school.id)}
+            <SchoolCard
+              school={school}
+              onSelect={() => handleSelectSchool(school.id)}
             />
           </motion.div>
         ))}

@@ -1,16 +1,19 @@
 import React, { useState } from 'react'
 import { motion } from 'framer-motion'
+import { useNavigate } from 'react-router-dom'
 import {Trophy, DollarSign, Users, TrendingUp} from 'lucide-react'
 import { useGameStore } from '../store/gameStore'
 
 const StartScreen = () => {
   const [playerName, setPlayerName] = useState('')
+  const navigate = useNavigate()
   const { initializePlayer, setGamePhase } = useGameStore()
 
   const handleStart = () => {
     const finalName = playerName.trim() || 'Bo Basset'
     initializePlayer(finalName)
     setGamePhase('recruitment')
+    navigate('/recruitment')
   }
 
   const floatingIcons = [

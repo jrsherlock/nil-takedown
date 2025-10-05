@@ -1,20 +1,30 @@
 import React, { useEffect } from 'react'
 import { motion } from 'framer-motion'
+import { useNavigate } from 'react-router-dom'
 import { useGameStore } from '../store/gameStore'
 import StatsPanel from '../components/StatsPanel'
 import EventCard from '../components/EventCard'
 import TransferPortal from '../components/TransferPortal'
 
 const GameScreen = () => {
-  const { 
-    player, 
-    currentEvent, 
-    generateRandomEvent, 
+  const navigate = useNavigate()
+  const {
+    player,
+    currentEvent,
+    generateRandomEvent,
     advanceYear,
-    schools
+    schools,
+    gamePhase
   } = useGameStore()
 
   const currentSchool = schools.find(s => s.id === player.currentSchool)
+
+  useEffect(() => {
+    // Navigate to ending screen when game ends
+    if (gamePhase === 'ended') {
+      navigate('/ending')
+    }
+  }, [gamePhase, navigate])
 
   useEffect(() => {
     // Generate initial event if none exists

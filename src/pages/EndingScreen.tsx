@@ -1,10 +1,17 @@
 import React from 'react'
 import { motion } from 'framer-motion'
+import { useNavigate } from 'react-router-dom'
 import {Trophy, DollarSign, Users, TrendingDown} from 'lucide-react'
 import { useGameStore } from '../store/gameStore'
 
 const EndingScreen = () => {
+  const navigate = useNavigate()
   const { player, resetGame } = useGameStore()
+
+  const handleReset = () => {
+    resetGame()
+    navigate('/start')
+  }
 
   const getEndingData = () => {
     const money = player.nilBankAccount
@@ -193,7 +200,7 @@ const EndingScreen = () => {
 
         {/* Play Again Button */}
         <motion.button
-          onClick={resetGame}
+          onClick={handleReset}
           className="px-12 py-4 text-xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 text-white rounded-xl hover:from-purple-700 hover:to-pink-700 transform hover:scale-105 transition-all duration-200 shadow-lg"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}

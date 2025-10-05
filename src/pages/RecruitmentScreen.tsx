@@ -1,8 +1,10 @@
 import React from 'react'
 import { motion } from 'framer-motion'
+import { useNavigate } from 'react-router-dom'
 import { useGameStore } from '../store/gameStore'
 
 const RecruitmentScreen = () => {
+  const navigate = useNavigate()
   const { setGamePhase, player } = useGameStore()
 
   const recruitmentMessages = [
@@ -76,7 +78,10 @@ const RecruitmentScreen = () => {
         transition={{ delay: 2 }}
       >
         <button
-          onClick={() => setGamePhase('school-selection')}
+          onClick={() => {
+            setGamePhase('school-selection')
+            navigate('/school-selection')
+          }}
           className="px-10 py-4 text-xl font-bold bg-gradient-to-r from-green-600 to-blue-600 text-white rounded-xl hover:from-green-700 hover:to-blue-700 transform hover:scale-105 transition-all duration-200 shadow-lg"
         >
           SHOW ME THE MONEY 💸
