@@ -45,13 +45,13 @@ interface GameStore {
   schools: School[]
   currentEvent: GameEvent | null
   eventHistory: string[]
-  
+
   // Actions
   setGamePhase: (phase: GameStore['gamePhase']) => void
   initializePlayer: (name: string) => void
   selectSchool: (schoolId: string) => void
   processChoice: (choiceIndex: number) => void
-  generateRandomEvent: () => void
+  generateRandomEvent: () => boolean
   advanceYear: () => void
   resetGame: () => void
   addAchievement: (achievement: string) => void
@@ -319,13 +319,19 @@ export const useGameStore = create<GameStore>((set, get) => ({
   },
 
   generateRandomEvent: () => {
-    const availableEvents = gameEvents.filter(event => 
-      !get().eventHistory.some(history => history.includes(event.title))
+    const state = get()
+    const availableEvents = gameEvents.filter(event =>
+      !state.eventHistory.some(history => history.startsWith(event.title + ':'))
     )
-    
+
     if (availableEvents.length > 0) {
       const randomEvent = availableEvents[Math.floor(Math.random() * availableEvents.length)]
       set({ currentEvent: randomEvent })
+      return true
+    } else {
+      // All events have been played
+      set({ currentEvent: null })
+      return false
     }
   },
 

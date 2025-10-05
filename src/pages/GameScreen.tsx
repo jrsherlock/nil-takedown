@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { useNavigate } from 'react-router-dom'
+import toast from 'react-hot-toast'
 import { useGameStore } from '../store/gameStore'
 import StatsPanel from '../components/StatsPanel'
 import EventCard from '../components/EventCard'
@@ -37,12 +38,29 @@ const GameScreen = () => {
   }, [currentEvent, generateRandomEvent])
 
   const handleNextEvent = () => {
-    generateRandomEvent()
+    const success = generateRandomEvent()
+    if (!success) {
+      toast.error('🎉 You\'ve experienced all available events! Time to advance to the next year!', {
+        duration: 4000,
+        icon: '🏆'
+      })
+    } else {
+      toast.success('💰 New opportunity found!', {
+        duration: 2000,
+        icon: '✨'
+      })
+    }
   }
 
   const handleAdvanceYear = () => {
     advanceYear()
-    generateRandomEvent()
+    const success = generateRandomEvent()
+    if (success) {
+      toast.success('📅 New year, new opportunities!', {
+        duration: 3000,
+        icon: '🎓'
+      })
+    }
   }
 
   return (
@@ -82,12 +100,14 @@ const GameScreen = () => {
               <p className="text-gray-300 mb-6">
                 You're taking a break from the NIL hustle. Time to generate your next money-making opportunity!
               </p>
-              <button
+              <motion.button
                 onClick={handleNextEvent}
-                className="px-6 py-3 bg-gradient-to-r from-green-600 to-blue-600 text-white rounded-lg hover:from-green-700 hover:to-blue-700 transition-all duration-200"
+                className="px-6 py-3 bg-gradient-to-r from-green-600 to-blue-600 text-white rounded-lg hover:from-green-700 hover:to-blue-700 transition-all duration-200 font-semibold"
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
               >
                 Find Next Opportunity 💰
-              </button>
+              </motion.button>
             </motion.div>
           )}
 
