@@ -28,7 +28,7 @@ const SchoolSelection = () => {
           CHOOSE YOUR PAYMASTER
         </h1>
         <p className="text-xl text-gray-300 mb-2">
-          Where will <span className="text-yellow-400 font-bold">{player.name || 'Bo Basset'}</span> begin the money hunt?
+          Where will <span className="text-yellow-400 font-bold">{player.name || 'Bo Bassett'}</span> begin the money hunt?
         </p>
         <p className="text-lg text-gray-400 italic">
           Remember: This is just your "soft" commitment... 😉

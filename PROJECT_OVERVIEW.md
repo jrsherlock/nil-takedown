@@ -1,8 +1,8 @@
-# Bo Basset's NIL Takedown - Project Overview & Technical Documentation
+# Bo Bassett's NIL Takedown - Project Overview & Technical Documentation
 
 ## 1. Project Summary
 
-**Bo Basset's NIL Takedown** is a satirical, narrative-driven choice-based RPG web game that simulates the experience of a college wrestling recruit navigating the NIL (Name, Image, Likeness) landscape. Players make strategic decisions to maximize their NIL earnings across four years of college eligibility while managing loyalty, social clout, and wrestling skills.
+**Bo Bassett's NIL Takedown** is a satirical, narrative-driven choice-based RPG web game that simulates the experience of a college wrestling recruit navigating the NIL (Name, Image, Likeness) landscape. Players make strategic decisions to maximize their NIL earnings across four years of college eligibility while managing loyalty, social clout, and wrestling skills.
 
 The game features a modern, animated user interface with a dark purple/pink gradient aesthetic, smooth transitions, and engaging visual feedback. It's built as a single-page application (SPA) with client-side state management and no backend requirements.
 
@@ -11,7 +11,7 @@ The game features a modern, animated user interface with a dark purple/pink grad
 ## 2. Game Concept Overview
 
 ### Core Mechanics
-- **Player Character**: Bo Basset, a five-star wrestling recruit
+- **Player Character**: Bo Bassett, a five-star wrestling recruit
 - **Objective**: Maximize NIL Bank Account earnings over 4 years of college eligibility
 - **Game Flow**: Start Screen → Recruitment → School Selection → Gameplay Loop → Ending
 
@@ -87,7 +87,7 @@ The game features a modern, animated user interface with a dark purple/pink grad
 ## 4. Project Structure
 
 ```
-Bo Basset NIL Takedown Game/
+Bo Bassett NIL Takedown Game/
 ├── index.html                 # Entry HTML file (contains Lumi favicon reference)
 ├── package.json               # Dependencies and scripts
 ├── pnpm-lock.yaml            # Package lock file

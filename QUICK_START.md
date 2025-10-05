@@ -1,4 +1,4 @@
-# Quick Start Guide - Bo Basset's NIL Takedown
+# Quick Start Guide - Bo Bassett's NIL Takedown
 
 ## 🎯 What You Need to Know Right Now
 

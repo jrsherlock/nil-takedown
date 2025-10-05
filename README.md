@@ -1,4 +1,4 @@
-# Bo Basset's NIL Takedown 💰🤼
+# Bo Bassett's NIL Takedown 💰🤼
 
 > *"Loyalty is for losers."*
 
@@ -12,7 +12,7 @@ A satirical choice-based RPG where you navigate the wild world of college wrestl
 
 ## 🎮 Game Overview
 
-Play as **Bo Basset**, a five-star wrestling recruit, and navigate:
+Play as **Bo Bassett**, a five-star wrestling recruit, and navigate:
 - 🏫 **4 unique schools** with different NIL opportunities
 - 💸 **6 satirical events** with multiple choice outcomes
 - 📊 **4 key stats** to manage (Money, Loyalty, Clout, Skill)
@@ -123,7 +123,7 @@ This repository includes comprehensive documentation:
 ## 📁 Project Structure
 
 ```
-Bo Basset NIL Takedown Game/
+Bo Bassett NIL Takedown Game/
 ├── src/
 │   ├── pages/           # 5 game screens
 │   ├── components/      # Reusable UI components
@@ -138,7 +138,7 @@ Bo Basset NIL Takedown Game/
 
 ## 🎮 How to Play
 
-1. **Start Screen** - Enter your wrestler name (or use "Bo Basset")
+1. **Start Screen** - Enter your wrestler name (or use "Bo Bassett")
 2. **Recruitment** - Experience the recruitment frenzy
 3. **School Selection** - Choose from 4 schools with different NIL opportunities
 4. **Gameplay** - Navigate events, make choices, manage stats

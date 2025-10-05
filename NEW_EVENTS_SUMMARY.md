@@ -1,7 +1,7 @@
 # New Game Events Summary
 
 ## Overview
-Added 5 new satirical game events to "Bo Basset's NIL Takedown" game, bringing the total from 6 to **11 events**.
+Added 5 new satirical game events to "Bo Bassett's NIL Takedown" game, bringing the total from 6 to **11 events**.
 
 All new events maintain the game's satirical tone, poking fun at NIL culture, social media influencers, and the absurdity of college wrestling's new landscape.
 

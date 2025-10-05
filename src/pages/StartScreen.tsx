@@ -10,7 +10,7 @@ const StartScreen = () => {
   const { initializePlayer, setGamePhase } = useGameStore()
 
   const handleStart = () => {
-    const finalName = playerName.trim() || 'Bo Basset'
+    const finalName = playerName.trim() || 'Bo Bassett'
     initializePlayer(finalName)
     setGamePhase('recruitment')
     navigate('/recruitment')
@@ -55,13 +55,13 @@ const StartScreen = () => {
         transition={{ duration: 0.8 }}
       >
         {/* Title */}
-        <motion.h1 
+        <motion.h1
           className="text-6xl md:text-8xl font-bold mb-6 bg-gradient-to-r from-yellow-400 via-red-500 to-purple-600 bg-clip-text text-transparent"
           initial={{ scale: 0.8 }}
           animate={{ scale: 1 }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
-          BO BASSET'S
+          BO BASSETT'S
         </motion.h1>
         
         <motion.h2 
@@ -91,7 +91,7 @@ const StartScreen = () => {
           transition={{ delay: 0.8 }}
         >
           <p className="text-lg text-gray-200 leading-relaxed mb-4">
-            In the wild world of D1 college wrestling, you are <span className="text-yellow-400 font-bold">Bo Basset</span>, 
+            In the wild world of D1 college wrestling, you are <span className="text-yellow-400 font-bold">Bo Bassett</span>,
             a five-star recruit on a mission to secure the biggest payday by any means necessary.
           </p>
           <p className="text-lg text-gray-200 leading-relaxed">
@@ -108,13 +108,13 @@ const StartScreen = () => {
           transition={{ delay: 1 }}
         >
           <label className="block text-white text-lg mb-4">
-            Enter your wrestler name (or stick with Bo Basset):
+            Enter your wrestler name (or stick with Bo Bassett):
           </label>
           <input
             type="text"
             value={playerName}
             onChange={(e) => setPlayerName(e.target.value)}
-            placeholder="Bo Basset"
+            placeholder="Bo Bassett"
             className="w-full max-w-md mx-auto px-6 py-3 text-xl text-center bg-white/10 backdrop-blur-sm border border-purple-500/50 rounded-xl text-white placeholder-gray-400 focus:outline-none focus:border-purple-400 focus:ring-2 focus:ring-purple-400/50"
           />
         </motion.div>

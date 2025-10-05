@@ -30,7 +30,7 @@ const RecruitmentScreen = () => {
           RECRUITMENT FRENZY
         </h1>
         <p className="text-xl text-gray-300">
-          Welcome to the circus, <span className="text-yellow-400 font-bold">{player.name || 'Bo Basset'}</span>!
+          Welcome to the circus, <span className="text-yellow-400 font-bold">{player.name || 'Bo Bassett'}</span>!
         </p>
       </motion.div>
 

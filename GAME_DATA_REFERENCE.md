@@ -1,4 +1,4 @@
-# Bo Basset's NIL Takedown - Game Data Reference
+# Bo Bassett's NIL Takedown - Game Data Reference
 
 This document provides a complete reference of all game data, mechanics, and balance information for development and expansion purposes.
 
@@ -308,7 +308,7 @@ This document provides a complete reference of all game data, mechanics, and bal
 ## Player Stats
 
 ### Initial Values
-- **Name:** Player-chosen (default: "Bo Basset")
+- **Name:** Player-chosen (default: "Bo Bassett")
 - **NIL Bank Account:** $0
 - **Loyalty Meter:** 50%
 - **Social Clout:** 1,000 followers
