@@ -8,10 +8,9 @@ const StartScreen = () => {
   const { initializePlayer, setGamePhase } = useGameStore()
 
   const handleStart = () => {
-    if (playerName.trim()) {
-      initializePlayer(playerName)
-      setGamePhase('recruitment')
-    }
+    const finalName = playerName.trim() || 'Bo Basset'
+    initializePlayer(finalName)
+    setGamePhase('recruitment')
   }
 
   const floatingIcons = [
